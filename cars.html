@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fa" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>خودروها | طالبی اتوموتیو</title>
+  <meta name="description" content="خودروهای موجود و آرشیو فروش نمایشگاه امیر طالبی؛ هوندا آکورد، هیوندای، مزدا، پروتون و دیگر کلاسیک‌ها با گزارش فنی کامل.">
+  <meta name="theme-color" content="#0c0c0c">
+  <link rel="icon" href="assets/images/brand/favicon.svg" type="image/svg+xml">
+  <script>try{var t=localStorage.getItem("talebi-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Readex+Pro:wght@400;600;700&family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body data-page="cars">
+
+<main>
+  <section class="phero">
+    <div class="bgimg"><img id="ph-img" alt=""></div>
+    <div class="g1"></div><div class="g2"></div><div class="fadeb"></div>
+    <div class="inner">
+      <nav class="crumbs" aria-label="مسیر"><a href="index.html">خانه</a><span class="sep"></span><span class="cur" id="crumb">خودروها</span></nav>
+      <h1 id="ph-h1"><span>خودروهای</span><span>موجود</span></h1>
+      <p class="count" id="ph-count"></p>
+    </div>
+  </section>
+
+  <section class="lst">
+    <div class="fpanel">
+      <div class="r1">
+        <div class="seg" id="seg"><span class="thumb"></span><button type="button" data-s="available">موجود</button><button type="button" data-s="sold">فروخته‌شده</button></div>
+        <span class="results" id="results"></span>
+      </div>
+      <div class="r2" id="filters"></div>
+      <div class="r3"><div class="sortbar"><button type="button" class="reset" id="reset">پاک کردن فیلترها</button></div></div>
+    </div>
+    <div class="grid4" id="grid"></div>
+  </section>
+</main>
+
+<script src="data/vehicles.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
