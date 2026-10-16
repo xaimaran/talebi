@@ -1,0 +1,7 @@
+// Cloudflare Workers static-assets deploy for the prototype. Files excluded from upload: .assetsignore
+{
+  "name": "talebi",
+  "compatibility_date": "2026-10-12",
+  "observability": { "enabled": true },
+  "assets": { "directory": "." }
+}

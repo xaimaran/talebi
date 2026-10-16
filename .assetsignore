@@ -1,0 +1,11 @@
+.git
+.gitignore
+.assetsignore
+.claude
+.wrangler
+_old-assets
+node_modules
+wrangler.jsonc
+CLAUDE.md
+README.md
+**/CREDITS.md
