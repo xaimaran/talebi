@@ -71,13 +71,13 @@
   };
   // plate mark: steering wheel in a ring (the red number-plate badge on his cars)
   const MARK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="2.6"/><path d="M2.5 10.5h7M14.5 10.5h7M12 14.6V22"/></svg>';
-  const LOGO = `<a class="logo" href="index.html" aria-label="${esc(SITE.brandFa)}"><span class="plate">${MARK}<span><b>TALEBI</b><em>JDM AUTOMOTIVE</em></span></span></a>`;
+  const LOGO = `<a class="logo" href="index.html" aria-label="${esc(SITE.brandFa)}"><img class="brand-logo" src="assets/images/brand/logo.jpg" alt="AMIR TALEBI Automotive"></a>`;
 
   /* ---------- shell ---------- */
   // [label, href | null, children[[label, href, hint]]] — items with children open in place
   const NAV = [
     ["خودروها", null, [["خودروهای موجود", "cars.html?status=available", "آماده بازدید"], ["آرشیو فروش", "cars.html?status=sold", "خودروهای فروخته‌شده"], ["همه برندها", "cars.html?status=available#brands", "هوندا، هیوندای، مزدا…"]]],
-    ["رسانه", null, [["گالری تصاویر", "gallery.html", "عکس‌های واقعی خودروها"], ["خودروهای موجود", "gallery.html?tab=available", "گالری موجودی"], ["آرشیو تصاویر", "gallery.html?tab=sold", "گالری فروخته‌شده‌ها"]]],
+    ["رسانه", null, [["گالری تصاویر", "gallery.html", "عکس‌های واقعی خودروها"], ["خودروهای موجود", "gallery.html?tab=available", "گالری موجودی"], ["آرشیو تصاویر", "gallery.html?tab=sold", "گالری فروخته‌شده‌ها"], ["نمای ۳۶۰ درجه", "spin/A01/index.html", "تست چرخش خودرو"]]],
     ["درباره ما", null, [["داستان نمایشگاه", "about.html", "امیر طالبی و کلاسیک‌ها"], ["روش کار ما", "about.html#how", "گزارش فنی شفاف"]]],
     ["تماس", "contact.html", null]
   ];

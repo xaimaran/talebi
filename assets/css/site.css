@@ -142,6 +142,7 @@ html[data-theme="light"] .logo { color: #111; }
 .logo .plate b { font-family: var(--font-latin); font-size: 14px; letter-spacing: .14em; font-weight: 400; }
 .logo .plate em { font-style: normal; font-family: var(--font-latin); font-size: 7px; letter-spacing: .3em; opacity: .85; display: block; line-height: 1; margin-top: 2px; }
 .logo .plate span { display: grid; line-height: 1; }
+.logo .brand-logo { height: 32px; width: auto; border-radius: 4px; display: block; }
 
 .actions { display: flex; gap: 4px; }
 .icon-btn { width: 44px; height: 44px; display: grid; place-items: center; border-radius: 9999px; color: var(--icon); transition: color .3s var(--ease), background-color .3s var(--ease); }

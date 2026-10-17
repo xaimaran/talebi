@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "id": "A01",
+  "title": "A01",
+  "frames": 144,
+  "width": 1600,
+  "height": 900,
+  "widths": [
+    1600,
+    800
+  ],
+  "zoomWidth": null,
+  "pattern": "frames/{w}/{i}.jpg",
+  "pad": 3,
+  "createdAt": "2026-10-17T14:35:33.492Z"
+}
