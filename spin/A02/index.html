@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>11 - 360 view</title>
+  <style>
+    body { margin: 0; background: #0b0b0c; color: #eee; font: 15px/1.5 system-ui, sans-serif; }
+    main { max-width: 1200px; margin: 0 auto; padding: 24px 16px; }
+    h1 { font-size: 20px; font-weight: 600; margin: 0 0 16px; }
+    .spin { border-radius: 12px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>11</h1>
+    <!-- Manifest embedded so the page works opened straight from disk (file://). -->
+    <div class="spin" data-xpin-inline="spin-data"></div>
+  </main>
+  <script type="application/json" id="spin-data">{"version":1,"id":"11","title":"11","frames":360,"width":1600,"height":900,"widths":[1600,800],"zoomWidth":3200,"pattern":"frames/{w}/{i}.jpg","pad":3,"createdAt":"2026-10-18T08:27:19.527Z"}</script>
+  <script src="xpin-viewer.js" defer></script>
+</body>
+</html>

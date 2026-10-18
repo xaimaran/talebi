@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "id": "11",
+  "title": "11",
+  "frames": 360,
+  "width": 1600,
+  "height": 900,
+  "widths": [
+    1600,
+    800
+  ],
+  "zoomWidth": 3200,
+  "pattern": "frames/{w}/{i}.jpg",
+  "pad": 3,
+  "createdAt": "2026-10-18T08:27:19.527Z"
+}
